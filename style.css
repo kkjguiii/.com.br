@@ -259,6 +259,11 @@ footer P span{
 @media screen and (max-width: 1024px){
 
 
+    ::-webkit-scrollbar {
+        width: 0px;
+    
+    }
+
     header {
         display: flex;
         align-items: center;
