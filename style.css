@@ -55,6 +55,8 @@ header {
 header .logo {
     width: 60px;
     height: 60px;
+
+    user-select: none;
 }
 
 header .navbar ul {
@@ -109,6 +111,8 @@ main {
 
     border: solid 5px #ff3131;
     padding: 5px;
+
+    user-select: none;
 }
 
 .home-infos {
@@ -224,10 +228,12 @@ footer {
     
     width: 100%;
     
+    user-select: none;
 }
 
 .footer-infos {
     display: flex;
+    align-items: center;
 
     justify-content: center;
     gap: 50%;
@@ -238,7 +244,7 @@ footer {
 }
 
 footer .logotipo img{
-    width: 80px;
+    width: 90px;
 }
 
 /* FOOTER - NAVBAR */
@@ -247,7 +253,7 @@ footer .redes-sociais {
     color: #ffffff;
     
     font-family: "Epilogue";
-    font-size: 20px;
+    font-size: 25px;
 }
 
 footer .redes-sociais I{
@@ -257,6 +263,8 @@ footer .redes-sociais I{
     border: solid 2px #4a4a4a;
     padding: 10px;
     border-radius: 10px;
+
+    transition: all 100ms;
 }
 
 footer .redes-sociais i:hover {
