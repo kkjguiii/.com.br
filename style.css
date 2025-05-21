@@ -238,7 +238,7 @@ footer {
 }
 
 footer .logotipo img{
-    width: 70px;
+    width: 80px;
 }
 
 /* FOOTER - NAVBAR */
@@ -247,7 +247,7 @@ footer .redes-sociais {
     color: #ffffff;
     
     font-family: "Epilogue";
-    font-size: 30px;
+    font-size: 20px;
 }
 
 footer .redes-sociais I{
