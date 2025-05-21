@@ -219,38 +219,73 @@ main {
 /* -- FOOTER -- */
 footer {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    background-color: #1a1a1a;
-    height: 15%;
-
+    
     width: 100%;
+    
+}
+
+.footer-infos {
+    display: flex;
+
+    justify-content: center;
+    gap: 50%;
+    background: #1a1a1a;
+    
+
+    width: 100%;    padding: 50px;
+}
+
+footer .logotipo img{
+    width: 70px;
+}
+
+/* FOOTER - NAVBAR */
+
+footer .redes-sociais {
+    color: #ffffff;
+    
+    font-family: "Epilogue";
+    font-size: 30px;
+}
+
+footer .redes-sociais I{
+
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: solid 2px #4a4a4a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer .redes-sociais i:hover {
+
+    background-color: #ff313120;
+    color: #ff3131;
+    border: solid 2px #ff3131;
+}
+
+.footer-copiryght {
+
+    display: flex;
+    justify-content: center;
+
+    border-top: solid 2px #3a3a3a;
 
     padding: 20px;
-}
 
-footer h1 {
-    font-family: "Epilogue";
-    font-size: 16px;
-    font-weight: 500;
-    color: #ffffff;
-}
+    background-color: #1a1a1a;
+    width: 100%;
 
-
-footer p{
+    color: #e1e1e1;
     font-family: "Epilogue";
     font-size: 10px;
-    font-weight: 400;
-    color: #e6e6e6;
 }
 
-footer P span{
-
+.footer-copiryght span {
     color: #ff3131;
 }
-
 
 /* <--------- SITE RESPONSIVO ---------> */
 @media screen and (max-width: 1024px){
@@ -291,5 +326,17 @@ footer P span{
     .home-infos a:hover{
         padding: 10px 15px;
         width: 100%;
+    }
+
+    footer .redes-sociais {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    footer .footer-copiryght p {
+        font-size: 8px;
+        padding: 10px 0px;
     }
 }
